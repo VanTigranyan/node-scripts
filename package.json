@@ -1,0 +1,22 @@
+{
+  "name": "node-scripts",
+  "version": "1.0.0",
+  "description": "Build and run scripts for React projects",
+  "main": "index.js",
+  "bin": {
+    "l2w-scripts": "bin/index.js"
+  },
+  "files": [
+    "/bin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "env-cmd": "^10.1.0",
+    "react-app-rewired": "^2.1.5"
+  },
+  "keywords": [],
+  "author": "Van Tigranyan",
+  "license": "ISC"
+}
